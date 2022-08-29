@@ -15,7 +15,7 @@ class SecondTaskScreen extends StatelessWidget {
             children: const [
               Image(
                 image: NetworkImage(
-                  'https://i.pinimg.com/originals/66/f1/6e/66f16eee76fa106a4cc160cbf6a58611.jpg',
+                  'https://imgs.search.brave.com/h54Hqe0FAaGBr0J9T5MwvPOncr8y7HIIbK_NB5mnIgA/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5L/bTY5TnpUOEI3clJD/ZXpyVmhFQVhRSGFG/aiZwaWQ9QXBp',
                 ),
                 fit: BoxFit.cover,
                 height: 200.0,
@@ -73,7 +73,7 @@ class SecondTaskScreen extends StatelessWidget {
             child: Container(
               decoration: const BoxDecoration(color: Colors.white, boxShadow: [
                 BoxShadow(
-                    color: Color.fromARGB(255, 183, 189, 8),
+                    color: Color.fromARGB(255, 29, 189, 8),
                     blurRadius: 10,
                     spreadRadius: 1,
                     offset: Offset(2, 3))
@@ -83,7 +83,7 @@ class SecondTaskScreen extends StatelessWidget {
                   ListTile(
                     leading: Icon(
                       Icons.phone,
-                      color: Color.fromARGB(255, 220, 188, 10),
+                      color: Color.fromARGB(255, 18, 192, 8),
                     ),
                     title: Text('Phone'),
                     subtitle: Text(
@@ -97,7 +97,7 @@ class SecondTaskScreen extends StatelessWidget {
                   ListTile(
                     leading: Icon(
                       Icons.alternate_email,
-                      color: Color.fromARGB(255, 220, 188, 10),
+                      color: Color.fromARGB(255, 68, 188, 8),
                     ),
                     title: Text('Email'),
                     subtitle: Text(
@@ -111,7 +111,7 @@ class SecondTaskScreen extends StatelessWidget {
                   ListTile(
                     leading: Icon(
                       Icons.lock,
-                      color: Color.fromARGB(255, 218, 201, 5),
+                      color: Color.fromARGB(255, 105, 187, 12),
                     ),
                     title: Text('Password'),
                     subtitle: Text(
@@ -145,7 +145,7 @@ class SecondTaskScreen extends StatelessWidget {
                       ),
                       Icon(
                         Icons.logout,
-                        color: Color.fromARGB(255, 31, 135, 209),
+                        color: Color.fromARGB(255, 15, 9, 104),
                       )
                     ],
                   ),
