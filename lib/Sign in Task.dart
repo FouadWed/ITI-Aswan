@@ -139,8 +139,8 @@ class SecondScreen extends StatelessWidget {
                         width: 10,
                       ),
                       Icon(
-                        Icons.logout,
-                        color: Color.fromARGB(255, 15, 9, 104),
+                        Icons.logout_rounded,
+                        color: Colors.deepOrange,
                       )
                     ],
                   ),
