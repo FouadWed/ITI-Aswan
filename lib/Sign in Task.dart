@@ -15,7 +15,7 @@ class SecondScreen extends StatelessWidget {
             children: const [
               Image(
                 image: NetworkImage(
-                  'https://imgs.search.brave.com/h54Hqe0FAaGBr0J9T5MwvPOncr8y7HIIbK_NB5mnIgA/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5L/bTY5TnpUOEI3clJD/ZXpyVmhFQVhRSGFG/aiZwaWQ9QXBp',
+                  'https://imgs.search.brave.com/1OwvC00q3GUrl7iUpuJOlJorcCXp0gOtbv6GpoiBXyM/rs:fit:1024:1024:1/g:ce/aHR0cDovL2Nkbi53/YWxscGFwZXJzYWZh/cmkuY29tLzY1Lzc0/L0cyckxZYS5qcGc',
                 ),
                 fit: BoxFit.cover,
                 height: 200.0,
@@ -71,13 +71,6 @@ class SecondScreen extends StatelessWidget {
               horizontal: 20,
             ),
             child: Container(
-              decoration: const BoxDecoration(color: Colors.white, boxShadow: [
-                BoxShadow(
-                    color: Color.fromARGB(255, 29, 189, 8),
-                    blurRadius: 10,
-                    spreadRadius: 1,
-                    offset: Offset(2, 3))
-              ]),
               child: Column(
                 children: const [
                   ListTile(
@@ -115,7 +108,7 @@ class SecondScreen extends StatelessWidget {
                     ),
                     title: Text('Password'),
                     subtitle: Text(
-                      "**",
+                      "********",
                       style: TextStyle(
                         fontSize: 18,
                       ),
