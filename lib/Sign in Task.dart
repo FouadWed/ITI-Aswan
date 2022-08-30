@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class SecondTaskScreen extends StatelessWidget {
-  const SecondTaskScreen({Key? key}) : super(key: key);
+class SecondScreen extends StatelessWidget {
+  const SecondScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
