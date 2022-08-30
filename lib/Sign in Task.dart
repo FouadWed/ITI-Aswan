@@ -26,8 +26,10 @@ class SecondScreen extends StatelessWidget {
                 child: Text(
                   'Account Settings',
                   style: TextStyle(
+                    color: Colors.white,
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
+
                   ),
                 ),
               ),
@@ -76,7 +78,7 @@ class SecondScreen extends StatelessWidget {
                   ListTile(
                     leading: Icon(
                       Icons.phone,
-                      color: Color.fromARGB(255, 18, 192, 8),
+                      color: Colors.blue,
                     ),
                     title: Text('Phone'),
                     subtitle: Text(
@@ -90,7 +92,7 @@ class SecondScreen extends StatelessWidget {
                   ListTile(
                     leading: Icon(
                       Icons.alternate_email,
-                      color: Color.fromARGB(255, 68, 188, 8),
+                      color: Colors.blue,
                     ),
                     title: Text('Email'),
                     subtitle: Text(
@@ -104,7 +106,7 @@ class SecondScreen extends StatelessWidget {
                   ListTile(
                     leading: Icon(
                       Icons.lock,
-                      color: Color.fromARGB(255, 105, 187, 12),
+                      color: Colors.blue,
                     ),
                     title: Text('Password'),
                     subtitle: Text(
