@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_day_2/Screen%202.dart';
 
 import 'Screen 2.dart ';
 
@@ -20,7 +21,7 @@ class Screen3 extends StatelessWidget {
           onTap:  () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const Screen3()),
+              MaterialPageRoute(builder: (context) => const Screen2()),
             );
           },
           child: Card(
