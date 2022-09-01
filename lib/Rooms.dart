@@ -18,22 +18,20 @@ class Hotel {
       "Double Room",
       "Two Persons.",
     ),
-    Room(
-        "https://imgs.search.brave.com/s1YhsFwFpQZP3yVKcNoyxlXVJXfAGmneQfTVav-mwmE/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5m/VzBfS1Vub1EtbE1p/eUlzeklwNHVBSGFG/aiZwaWQ9QXBp",
-        "Single Room",
-        "Only One Person."
-    ),
+
+  Room(
+  "https://imgs.search.brave.com/5N5mCUMnl_hxHSR76OF1VYX9qQNGnAayM-QiUJKbImM/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5V/RGNNV0c5UjlGanNP/MTY1T1E0c2JRSGFF/NyZwaWQ9QXBp",
+  "HoneyMoon Room",
+  "Husband and Wife."
+  ),
 
     Room(
         "https://imgs.search.brave.com/fxGmzZNgvu3Rzt0O8SAzwwzzo67ZSuRVLiTKr4vO7Cw/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5N/bi1WMzNpMlo4RlBq/MlhtVTJnWkZRSGFF/OCZwaWQ9QXBp",
         "Friends Room",
         "Three or Four Persons."
     ),
-    Room(
-        "https://imgs.search.brave.com/5N5mCUMnl_hxHSR76OF1VYX9qQNGnAayM-QiUJKbImM/rs:fit:713:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5V/RGNNV0c5UjlGanNP/MTY1T1E0c2JRSGFF/NyZwaWQ9QXBp",
-        "HoneyMoon Room",
-        "Husband and Wife."
-    ),
+
+
   ];
 
   int RecentRoom = 0;

@@ -22,6 +22,7 @@ class _RoomListScreen extends State<RoomListScreen> {
         title: Text("Room List"),
         centerTitle: true,
         leading: Icon(Icons.arrow_circle_left_outlined),
+        backgroundColor: Colors.green,
       ),
       body: ListView(
         children: <Widget>[
@@ -81,7 +82,8 @@ class _RoomListScreen extends State<RoomListScreen> {
                           '${rooms.rooms[secondIndex].image}',
                           // width: 300,
                           height: 150,
-                          fit:BoxFit.fill
+
+                          fit:BoxFit.cover
                       ),
                     ),
                     ListTile(
@@ -139,8 +141,4 @@ class _RoomListScreen extends State<RoomListScreen> {
     );
   }
 }
-/*
-setState((){
-firstIndex = 2;
-secondIndex = 3;
-});*/
+
